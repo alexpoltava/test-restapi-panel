@@ -1,0 +1,10 @@
+<div class="restapi-panel">
+    <div class="gf-form">
+        <label class="gf-form-label width-4">url:</label>
+        <input type="text" class="input-small gf-form-input width-auto" ng-model="ctrl.restapi.url" placeholder="url" ng-model-onblur />
+        <button type="submit" class="btn btn-inverse width-10" ng-click="ctrl.onSubmit()">Send request</button>
+    </div>
+    <div class="gf-form">
+      <label class="gf-form-textarea">{{ctrl.restapi.response}}</label>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+{
+  "type": "panel",
+  "name": "Restapi Panel",
+  "id": "test-restapi-panel",
+
+  "info": {
+    "description": "Test restapi call panel for Grafana",
+    "author": {
+      "name": "",
+      "url": ""
+    },
+    "keywords": ["panel"],
+    "links": [
+      {"name": "Project site"},
+      {"name": "Apache License"}
+    ],
+    "version": "0.0.1",
+    "updated": "2017-08-03"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}
